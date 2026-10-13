@@ -154,8 +154,8 @@
 ## 📊 Statistiques GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=kardigue-diallo&show_icons=true&theme=radial&hide_border=true" alt="Kardigue Diallo GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kardigue-diallo&layout=compact&theme=radial&hide_border=true" alt="Most Used Languages" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=kardigue-diallo&show_icons=true&theme=radial&hide_border=true" alt="Kardigue Diallo GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=kardigue-diallo&layout=compact&theme=radial&hide_border=true" alt="Most Used Languages" width="48%" />
 </p>
 
 ---
