@@ -73,7 +73,10 @@
 - 📊 **Kaggle :** 
   - Pandas
   - Introduction à la programmation
-- 🏅 **Cisco Networking Academy :** Networking Basics, Introduction to IoT, Computer Hardware Basics
+- 🏅 **Cisco Networking Academy :**
+- Networking Basics
+- Introduction to IoT
+- Computer Hardware Basics
 - 📜 **Dubai Future Foundation :** Certification *One Million Prompters*
 
 ---
