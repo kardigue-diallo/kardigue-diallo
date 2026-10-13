@@ -8,9 +8,10 @@
 
 ## ⚡ En quelques mots...
 
-- 🔭 **Projet récent :** Analyse bout-en-bout d'une marketplace e-commerce (9 tables SQL + Dashboard Streamlit).
-- 🧠 **Axes d'intérêt :** Modélisation prédictive, Traitement du langage naturel (NLP), Systèmes dynamiques & Chaos, Algorithmesfrom scratch.
-- 🎯 **Objectif :** Poursuivre vers un Master professionnel / Doctorat orienté Data Science, IA, IoT ou Open Source.
+- 🎓 **Statut :** Étudiant en Master 1 de Recherche en Mathématiques à la Faculté des Sciences de Bizerte (FSB).
+- 🏋️ **Projet récent :** Analyse bout-en-bout d'une marketplace e-commerce (9 tables SQL + Dashboard Streamlit).
+- 🧠 **Axes d'intérêt :** Modélisation prédictive, Traitement du langage naturel (NLP), Systèmes dynamiques & Chaos, Algorithmes from Scratch.
+- 🎯 **Objectif :** Valider mon Master en Mathématiques puis poursuivre vers un Master spécialisé ou Doctorat orienté Data Science, IA, IoT ou Open Source.
 - 💬 **N'hésitez pas à me contacter** pour discuter de Data Science, de mathématiques appliquées ou de projets collaboratifs !
 
 ---
