@@ -65,10 +65,16 @@
 
 ## 📜 Certifications & Formations Continue
 
+- 🐍 **DataCamp :** 
+  - Apprentissage supervisé avec scikit-learn
+  - Python Intermédiaire & Introduction à Python
+  - Introduction aux statistiques en R
+  - Fonctions Excel avancées & Introduction à Excel
+- 📊 **Kaggle :** 
+  - Pandas
+  - Introduction à la programmation
 - 🏅 **Cisco Networking Academy :** Networking Basics, Introduction to IoT, Computer Hardware Basics
 - 📜 **Dubai Future Foundation :** Certification *One Million Prompters*
-- 📊 **Kaggle :** Certificate *Pandas*
-- 🐍 **DataCamp :** *Supervised Learning with scikit-learn*, *Intermediate Python*
 
 ---
 
@@ -86,3 +92,4 @@
 - **Email :** kardigue272@gmail.com
 - **LinkedIn :** [Kardigue Diallo](https://www.linkedin.com/in/kardigue-diallo)
 - **Kaggle :** [Kardigue Diallo](https://www.kaggle.com/kardiguediallo)
+- **Credly :** [Kardigue Diallo](https://www.credly.com/users/kardigue-diallo)
