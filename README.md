@@ -39,28 +39,98 @@
 
 ## 🎯 Projets Phares
 
-- **[Étude de la Suite Logistique : De la Stabilité au Chaos Numérique (PFE)](https://github.com/kardigue-diallo/suite-logistique-chaos)**  
-  Projet de Fin d'Études (Licence Math&Info - FSB). Modélisation mathématique des systèmes dynamiques chaotiques, bifurcations, attracteur de Hénon et application au chiffrement numérique via une application Streamlit interactive.
+### 📌 Vue Synthétique
 
-- **[Olist E-Commerce Analytics (SQL & Streamlit)](https://github.com/kardigue-diallo/olist-sql-analyse-clients)**  
-  Analyse interactive complète d'une marketplace e-commerce exploitant l'intégralité du modèle relationnel (**9 tables SQL**).  
-  🔗 **[Accéder au Dashboard Streamlit en direct](https://olist-sql-analyse-clients-spxwv9ukb9mxsh89patmwf.streamlit.app)**
+| Projet | Domaine & Outils | Problème Réglé / Objectif | Liens & Déploiement |
+| :--- | :--- | :--- | :--- |
+| **PFE : Suite Logistique & Chaos** | Mathématiques, Python, Streamlit | Modéliser le passage au chaos et créer un système de chiffrement sécurisé | 📁 [Repository](https://github.com/kardigue-diallo/suite-logistique-chaos) |
+| **Olist E-Commerce Analytics** | SQL (9 tables), Streamlit, Python | Analyser le comportement client et la performance d'une marketplace | 📁 [Repository](https://github.com/kardigue-diallo/olist-sql-analyse-clients) <br> 🚀 [Dashboard Live](https://olist-sql-analyse-clients-spxwv9ukb9mxsh89patmwf.streamlit.app) |
+| **Telco Churn Prediction** | ML, Scikit-learn, SHAP, Streamlit | Prédire le départ des clients télécoms et optimiser la rétention | 📁 [Repository](https://github.com/kardigue-diallo/Telco-Customer-Churn-Prediction) |
+| **NLP Sentiment Analysis** | NLP, Scikit-learn, Streamlit | Classifier les avis clients en français (Positif / Négatif) | 📁 [Repository](https://github.com/kardigue-diallo/NLP-Analyse-Sentiments-Avis-Clients-FR) |
+| **Neural Network From Scratch** | Deep Learning, NumPy, Python | Comprendre et implémenter la rétropropagation sans framework | 📁 [Repository](https://github.com/kardigue-diallo/neural-network-from-scratch) |
+| **Movie Recommender SVD** | Machine Learning, SVD, SciPy | Recommander des films personnalisés via Décomposition Matricielle | 📁 [Repository](https://github.com/kardigue-diallo/movie-recommender-svd) |
+| **Cryptography Project** | Sécurité, Python, Algèbre | Sécuriser la communication par algorithmes de chiffrement | 📁 [Repository](https://github.com/kardigue-diallo/cryptography-project) |
 
-- **[Telco Customer Churn Prediction](https://github.com/kardigue-diallo/Telco-Customer-Churn-Prediction)**  
-  Modélisation prédictive de l'attrition client en télécoms avec interprétabilité SHAP et optimisation du ROI marketing.
+---
 
-- **[NLP - Analyse de Sentiments Avis Clients](https://github.com/kardigue-diallo/NLP-Analyse-Sentiments-Avis-Clients-FR)**  
-  Traitement automatique du langage naturel (NLP) pour la classification et l'analyse de sentiments sur des avis clients en français.
+### 🔍 Fiches Détaillées des Projets
 
-- **[Neural Network From Scratch](https://github.com/kardigue-diallo/neural-network-from-scratch)**  
-  Implémentation complète d'un Perceptron Multi-Couches (MLP) en Python avec NumPy (propagation avant, rétropropagation, descente de gradient).
+<details>
+<summary><b>1. 🌀 Étude de la Suite Logistique : De la Stabilité au Chaos Numérique (PFE)</b></summary>
 
-- **[Movie Recommender SVD](https://github.com/kardigue-diallo/movie-recommender-svd)**  
-  Système de recommandation de films basé sur la Décomposition en Valeurs Singulières (SVD).
+* **💡 Motivation :** Explorer le pont entre les mathématiques fondamentales (systèmes dynamiques) et la sécurité informatique moderne.
+* **⚠️ Problème à résoudre :** Les méthodes de chiffrement classiques peuvent présenter des régularités exploitables par la cryptanalyse.
+* **🎯 Objectif :** Étudier la sensibilité aux conditions initiales (effet papillon) de la suite logistique et de l'attracteur de Hénon pour générer des clés de chiffrement chaotiques pseudo-aléatoires.
+* **✅ Avantages :** Forte sécurité due au comportement pseudo-aléatoire, vitesse de calcul élevée pour la génération de clés.
+* **⚠️ Inconvénients / Limites :** Sensibilité aux erreurs d'arrondi sur ordinateur (précision flottante).
+* **🌐 Cas d'usage pratiques :** Chiffrement d'images et de données sensibles, simulations scientifiques, génération de nombres pseudo-aléatoires.
+</details>
 
-- **[Cryptography Project](https://github.com/kardigue-diallo/cryptography-project)**  
-  Algorithmes de chiffrement (RSA, Hill, Vigenère) avec interface en ligne de commande.
+<details>
+<summary><b>2. 🛒 Olist E-Commerce Analytics (SQL & Streamlit)</b></summary>
 
+* **💡 Motivation :** Travailler sur des données réelles d'une marketplace e-commerce complexe à tables multiples.
+* **⚠️ Problème à résoudre :** La difficulté pour les décideurs de croiser les ventes, le comportement client, la logistique et les paiements stockés dans des bases relationnelles fragmentées.
+* **🎯 Objectif :** Exploiter un schéma relationnel de **9 tables SQL** pour extraire des KPIs business (Chiffre d'affaires, segmentation RFM, analyse de cohortes/rétention) et les rendre accessibles sur un dashboard.
+* **✅ Avantages :** Requêtes SQL optimisées, interface web très intuitive, vision 360° de la performance e-commerce.
+* **⚠️ Inconvénients / Limites :** Données historiques statiques (2016-2018), analyse descriptive sans prédiction automatique des futures commandes.
+* **🌐 Cas d'usage pratiques :** Pilotage d'activité e-commerce, ciblage des campagnes marketing par segments de clients (RFM), optimisation logistique.
+</details>
+
+<details>
+<summary><b>3. 📱 Telco Customer Churn Prediction</b></summary>
+
+* **💡 Motivation :** L'acquisition d'un nouveau client coûte jusqu'à 5 fois plus cher que la rétention d'un client existant dans les télécoms.
+* **⚠️ Problème à résoudre :** Identifier proactivement les abonnés susceptibles de résilier leur contrat.
+* **🎯 Objectif :** Entraîner des modèles de classification prédictive et utiliser la méthode **SHAP** pour comprendre les facteurs explicatifs du départ client.
+* **✅ Avantages :** Interprétabilité forte des décisions de l'IA (SHAP values), calcul du ROI marketing ciblé.
+* **⚠️ Inconvénients / Limites :** Nécessite une mise à jour régulière des données clients pour éviter le concept drift.
+* **🌐 Cas d'usage pratiques :** Campagnes anti-attrition ciblées, personnalisation des offres de fidélisation télécom.
+</details>
+
+<details>
+<summary><b>4. 💬 NLP - Analyse de Sentiments Avis Clients (Français)</b></summary>
+
+* **💡 Motivation :** Automatiser la veille stratégique sur la satisfaction client à partir de commentaires textuels bruts.
+* **⚠️ Problème à résoudre :** Analyser manuellement des milliers d'avis clients en français demande un temps considérable et engendre des biais.
+* **🎯 Objectif :** Nettoyer le texte, vectoriser les mots (TF-IDF) et classifier automatiquement la polarité des avis (positif / négatif).
+* **✅ Avantages :** Gain de temps massif pour les équipes du service client, traitement du texte en français.
+* **⚠️ Inconvénients / Limites :** Sensibilité au sarcasme, aux fautes d'orthographe et au contexte subtil des phrases.
+* **🌐 Cas d'usage pratiques :** Modération automatique des avis en ligne, détection précoce des crises de réputation d'une marque.
+</details>
+
+<details>
+<summary><b>5. 🧠 Neural Network From Scratch (NumPy)</b></summary>
+
+* **💡 Motivation :** Ne pas se contenter d'utiliser des boîtes noires comme PyTorch ou TensorFlow, mais maîtriser l'Algèbre Linéaire sous-jacente.
+* **⚠️ Problème à résoudre :** Comprendre le fonctionnement exact de la propagation avant et de la rétropropagation du gradient.
+* **🎯 Objectif :** Coder intégralement un Perceptron Multi-Couches (MLP) uniquement avec Python et NumPy.
+* **✅ Avantages :** Contrôle total de la structure mathématique et optimisation fine des poids et biais.
+* **⚠️ Inconvénients / Limites :** Moins rapide et moins optimisé sur GPU qu'un framework industriel (PyTorch/TensorFlow).
+* **🌐 Cas d me d'usage pratiques :** Enseignement de l'IA, prototypage algorithmique personnalisé.
+</details>
+
+<details>
+<summary><b>6. 🎬 Movie Recommender SVD</b></summary>
+
+* **💡 Motivation :** Proposer une expérience utilisateur personnalisée en ligne en exploitant la réduction de dimensionnalité.
+* **⚠️ Problème à résoudre :** La matrice Utilisateurs-Films est extrêmement creuse (sparse matrix), la plupart des utilisateurs ne notant qu'une fraction des films.
+* **🎯 Objectif :** Appliquer la Décomposition en Valeurs Singulières (SVD) pour prédire les notes manquantes et recommander les meilleurs films.
+* **✅ Avantages :** Algorithme mathématique élégant, prédictions personnalisées précises.
+* **⚠️ Inconvénients / Limites :** Problème du "Cold Start" (difficulté à recommander à un nouvel utilisateur sans historique).
+* **🌐 Cas d'usage pratiques :** Moteurs de recommandation pour plateformes de streaming (Netflix, Spotify) ou sites e-commerce.
+</details>
+
+<details>
+<summary><b>7. 🔐 Cryptography Project</b></summary>
+
+* **💡 Motivation :** Mettre en pratique les concepts d'arithmétique modulaire et d'algèbre linéaire pour la confidentialité des données.
+* **⚠️ Problème à résoudre :** Protéger la confidentialité et l'intégrité des messages transmis sur un canal non sécurisé.
+* **🎯 Objectif :** Implémenter des algorithmes de chiffrement symétriques et asymétriques (RSA, Hill, Vigenère) avec une interface CLI.
+* **✅ Avantages :** Démonstration concrète des applications de l'algèbre (calculs matriciels pour Hill, arithmétique modulaire pour RSA).
+* **⚠️ Inconvénients / Limites :** Implémentation pédagogique (non recommandée pour de la production industrielle hautement sécurisée).
+* **🌐 Cas d'usage pratiques :** Protection de courriels, sécurisation des communications texte, apprentissage de la cybersécurité.
+</details>
 ---
 
 ## 📜 Certifications & Formations Continue
